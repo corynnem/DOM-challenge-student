@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <h1 style="text-align: center;">DOM Challenges</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm" style="width: 30%;" id="challenge1">
+        <h3>Challenge 1</h3>
+        <p>step 1: In this column, display a photo of your choice in the img tag below
+          using DOM manipulation. Make sure to include alt text!</p>
+        <p>step 2: Add some lorem ipsum below the photo, and some appropriate
+          styling in and around the container, For Ex.
+          <ul>
+            <li>Background color</li>
+            <li>Borders</li>
+            <li>Font</li>
+          </ul>
+        </p>
+        <img id="photo" src='' alt='' />
+        <p id="lorem"></p>
+      </div>
+      <div class="col-sm" style="width: 30%;" id="challenge2">
+        <h3>Challenge 2</h3>
+        <p> step 1: In this column write fetch from this API endpoint
+          'http://ergast.com/api/f1/2020/drivers/hamilton/constructors/mercedes/circuits/bahrain/results.json'.
+          making sure to include the header method with the value 'GET'. </p>
+        <p>Display the...</p>
+        <ul>
+          <li>locality</li>
+          <li>country</li>
+          <li>circuitName</li>
+        </ul>
+        <p>from the "Ciruit" object</p>
+
+        <p>Display the...</p>
+        <ul>
+          <li>givenName</li>
+          <li>familyName</li>
+          <li>permanentNumber</li>
+        </ul>
+        <p>from the "Results" array</p>
+
+        <p>
+          You may loop through and display this code via DOM manipulation
+        however you see fit!
+        </p>
+        <!-- DISPLAY DATA HERE -->
+        <div id="container">
+
+        </div>
+      </div>
+  </div>
+  </body>
+<script src="./DOM.js"></script>
+
+</html>
