@@ -1,7 +1,7 @@
 // There are 2 challenges here, make sure you read the directions carefully
 // First thing you need to do is run 'npm install' in the terminal
 
-// Then you should be ready to start!
+// Then you should be ready to
 
 //Challenge 1
 // step 1: In this column, display a photo of your choice in the img tag below
